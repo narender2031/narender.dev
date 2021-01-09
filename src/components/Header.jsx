@@ -1,22 +1,24 @@
 import PropTypes from "prop-types"
 import React from "react"
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, Container } from 'react-bootstrap'
 
 const Header = ({ siteTitle }) => (
   <Navbar>
-    <Navbar.Brand href="#">Brand link</Navbar.Brand>
-    <Nav
-      defaultActiveKey="/home"
-      variant="pills"
-      className="ml-auto"
-    >
-      <Nav.Item>
-        <Nav.Link href="/home">Home</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/work">Home</Nav.Link>
-      </Nav.Item>
-    </Nav>
+    <Container fluid className="px-5">
+      <Navbar.Brand href="#">Brand link</Navbar.Brand>
+      <Nav
+        defaultActiveKey="/home"
+        variant="pills"
+        className="ml-auto"
+      >
+        <Nav.Item>
+          <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/work">Home</Nav.Link>
+        </Nav.Item>
+      </Nav>
+    </Container>
   </Navbar>
 )
 
