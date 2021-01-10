@@ -12,7 +12,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Row>
       <Col className="justify-content-center align-items-center text-center align-items-sm-start align-self-center">
-        <h1>Hi people</h1>
+        <h1 className="font-weight-bold">Hi, I'm Narender Singh</h1>
+        <h3><span className="text-primary font-weight-bold">[Web/Mobile]</span> <span className="font-weight-light">developer</span></h3>
       </Col>
       <Col>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, alignSelf: 'flex-end' }}>
@@ -26,6 +27,16 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+
+
+
+
+
+
+
+
+
 
 
 
