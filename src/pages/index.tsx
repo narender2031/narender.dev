@@ -16,7 +16,7 @@ const IndexPage = () => (
         <h3><span className="text-primary font-weight-bold">[Web/Mobile]</span> <span className="font-weight-light">developer</span></h3>
       </Col>
       <Col>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, alignSelf: 'flex-end' }}>
+        <div className="m-auto d-block w-50">
           <Image src={WorkingManImage}/>
         </div>
       </Col>
