@@ -62,8 +62,23 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex-grow: 1;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
+}
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
